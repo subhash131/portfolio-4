@@ -1,14 +1,13 @@
 import Navbar from "@/components/navbar/Navbar";
-import Logo from "./logo/logo";
 import Hero from "@/components/hero/Hero";
-import Glow from "@/components/designs/Glow";
+import Section2 from "@/components/Section2/Section2";
 
 export default function Home() {
   return (
-    <main className="bg-black min-h-screen relative overflow-x-hidden">
+    <main className="bg-black min-h-screen  ">
       <Navbar />
       <Hero />
-      <div className="w-screen h-screen absolute"></div>
+      <Section2 />
     </main>
   );
 }
