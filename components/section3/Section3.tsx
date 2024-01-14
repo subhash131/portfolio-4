@@ -9,7 +9,7 @@ const Section3 = () => {
   // console.log("scrollY: ", scrollY);
   let transform = useTransform(
     scrollY,
-    [1200, 1800],
+    [600, 1000],
     [
       "perspective(50px) translateX(0px) translateY(0px) scale(1.3) rotate(0deg) rotateX(4deg) rotateY(0deg) translateZ(0px)",
       "perspective(1200px) translateX(0px) translateY(6px) scale(0.8) rotate(0deg) rotateX(0deg) rotateY(372deg) translateZ(0px)",
