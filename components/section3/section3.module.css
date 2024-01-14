@@ -1,5 +1,4 @@
 .container {
-  /* height: 180vh; */
   width: 100%;
   background: rgb(0, 0, 0);
   background: linear-gradient(
@@ -16,7 +15,6 @@
 }
 .title_container {
   width: 100%;
-  /* background-color: red; */
   display: flex;
   align-items: center;
   height: 50vh;
@@ -33,14 +31,12 @@
 }
 
 .image_container {
-  /* margin: auto; */
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: 80%;
   position: relative;
-  /* background-color: red; */
   margin-bottom: 0;
 }
 .image_container::after {
