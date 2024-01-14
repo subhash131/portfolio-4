@@ -5,7 +5,7 @@ import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 const Section3 = () => {
-  const { scrollY } = useScroll(); //1200 to 1800
+  const { scrollY } = useScroll();
   let transform = useTransform(
     scrollY,
     [600, 1000],
