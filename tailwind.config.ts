@@ -14,7 +14,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       boxShadow: {
-        "cus-wide-3xl": "var(--background) 0 0 190px 150px;",
+        "cus-wide-3xl": "var(--background) 0 0 150px 80px;",
       },
     },
   },
