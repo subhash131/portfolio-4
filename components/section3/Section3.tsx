@@ -6,7 +6,6 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const Section3 = () => {
   const { scrollY } = useScroll(); //1200 to 1800
-  // console.log("scrollY: ", scrollY);
   let transform = useTransform(
     scrollY,
     [600, 1000],
