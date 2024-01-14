@@ -1,11 +1,12 @@
 "use client";
 import React from "react";
-import styles from "./hero.module.css";
+import styles from "./section3.module.css";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 const Section3 = () => {
   const { scrollY } = useScroll(); //1200 to 1800
+  // console.log("scrollY: ", scrollY);
   let transform = useTransform(
     scrollY,
     [1200, 1800],
