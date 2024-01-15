@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <div className=" w-full h-[calc(100vh-8rem)] bg-red-5 justify-center items-center flex bg-re-50 cursor-none">
       <div className="bg-gree-300 w-full h-full flex items-center justify-center">
-        <div className="w-[50%]">
+        <div className="w-[50%] h-[60%]">
           <p className="text-white text-5xl uppercase font-bold leading-tight">
             a <StyledText>software engineer</StyledText>
             transforms complexity into seamless{" "}
@@ -36,7 +36,7 @@ const Hero = () => {
       >
         {/* Noncompliant */}
         <div
-          className="w-[50%]"
+          className="w-[50%] h-[50%]"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >

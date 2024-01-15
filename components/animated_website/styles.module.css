@@ -1,0 +1,130 @@
+.navbar {
+  background-image: url("../../public/assets/animated_website/navbar.svg");
+  width: 100%;
+  height: 7%;
+  position: absolute;
+  top: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  transform: "translateZ(75px)";
+  transform-style: "preserve-3d";
+  scale: 0.9;
+}
+.enroll_button {
+  background-image: url("../../public/assets/animated_website/enroll_button.svg");
+  width: 10%;
+  height: 7%;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  transform: "translateZ(75px)";
+  transform-style: "preserve-3d";
+  scale: 0.8;
+}
+
+.main {
+  background-image: url("../../public/assets/animated_website/website_background.svg");
+  width: 70%;
+  height: 90%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  transform: "translateZ(75px)";
+  transform-style: "preserve-3d";
+}
+.component1 {
+  background-image: url("../../public/assets/animated_website/web_component1.svg");
+  width: 32%;
+  height: 35%;
+  left: 3%;
+  bottom: 5%;
+  position: absolute;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  transform: "translateZ(75px)";
+  transform-style: "preserve-3d";
+  background-size: cover;
+}
+.component1 .title {
+  background-image: url("../../public/assets/animated_website/Zero_carbon.svg");
+  width: 170px;
+  height: 70px;
+  scale: 0.8;
+  right: 40%;
+  top: 0%;
+  position: absolute;
+  background-repeat: no-repeat;
+  transform: "translateZ(75px)";
+  transform-style: "preserve-3d";
+  background-size: cover;
+}
+.component1 .description {
+  background-image: url("../../public/assets/animated_website/our_hydracool.svg");
+  width: 290px;
+  height: 80px;
+  scale: 0.5;
+  left: 20%;
+  bottom: -10%;
+  position: absolute;
+  background-repeat: no-repeat;
+  transform: "translateZ(75px)";
+  transform-style: "preserve-3d";
+  background-size: cover;
+}
+.component1 .mask {
+  background-image: url("../../public/assets/mask.svg");
+  width: 170px;
+  height: 170px;
+  scale: 0.8;
+  left: 25%;
+  top: 10%;
+  position: absolute;
+  background-repeat: no-repeat;
+  transform: "translateZ(75px)";
+  transform-style: "preserve-3d";
+  background-size: cover;
+}
+.component2 {
+  background-image: url("../../public/assets/animated_website/web_component2.png");
+  width: 250px;
+  height: 300px;
+  left: 40%;
+  bottom: 5%;
+  position: absolute;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  transform: "translateZ(75px)";
+  transform-style: "preserve-3d";
+  background-size: cover;
+}
+.component3 {
+  background-image: url("../../public/assets/animated_website/web_component3_v1.png");
+  width: 230px;
+  height: 400px;
+  right: 5%;
+  bottom: 5%;
+  position: absolute;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  transform: "translateZ(75px)";
+  transform-style: "preserve-3d";
+  background-size: cover;
+}
+
+.button {
+  background-image: url("../../public/assets/animated_website/order_button.png");
+  width: 200px;
+  height: 50px;
+  right: 5%;
+  bottom: 5%;
+  position: absolute;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  transform: "translateZ(75px)";
+  transform-style: "preserve-3d";
+  background-size: cover;
+}
