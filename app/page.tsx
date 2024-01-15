@@ -2,6 +2,7 @@ import Navbar from "@/components/navbar/Navbar";
 import Hero from "@/components/hero/Hero";
 import Section2 from "@/components/Section2/Section2";
 import Section3 from "@/components/section3/Section3";
+import AnimatedWebsite from "@/components/animated_website/AnimatedWebsite";
 
 export default function Home() {
   return (
@@ -9,7 +10,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Section3 />
-      <Section2 />
+      {/* <Section2 /> */}
+      <AnimatedWebsite />
     </main>
   );
 }
