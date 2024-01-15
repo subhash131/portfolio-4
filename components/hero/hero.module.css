@@ -1,0 +1,8 @@
+.mask {
+  mask-image: url("../../public/assets/mask.svg");
+  background-color: #0d085e;
+  mask-repeat: no-repeat;
+  mask-position: 50%;
+  mask-size: 40px;
+  z-index: 100;
+}
